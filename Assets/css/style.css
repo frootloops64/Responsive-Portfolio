@@ -102,11 +102,11 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
-@media (min-width: 768px) {
-section {
-    width: 100%;
+@media screen and (max-width: 768px) {
+.wrapper {
+    width: 1000px;
 }
 footer {
-    width: 100%;
+    width: 1000px;
 }
 }
